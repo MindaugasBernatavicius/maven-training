@@ -1,7 +1,7 @@
 # maven-training
 
 1. Install maven, configure `JAVA_HOME`, `MAVEN_HOME`, `PATH`, call `mvn --help`, `mvn --version`.
-2. Write simple pom.xml, run maven clean.
+2. Write simple pom.xml, run maven clean. Be carefull w/ file extensions not showing up in windows.
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -19,6 +19,11 @@
 3. Build a simple project from command line - hello world, by hand or by using this command:
 ```
 mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false -DgroupId=my.package.path -DartifactId=myartifact
+```
+```
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project myartifact: Compilation failure: Compilation failure:
+[ERROR] Source option 5 is no longer supported. Use 6 or later.
+[ERROR] Target option 1.5 is no longer supported. Use 1.6 or later.
 ```
 4. Command chaining: mvn clean deploy
 5. Build same or similar project with your ide.
