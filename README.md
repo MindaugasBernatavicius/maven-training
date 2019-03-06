@@ -18,7 +18,10 @@
 ```
 3. Build a simple project from command line - hello world, by hand or by using this command:
 ```
-mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false -DgroupId=my.package.path -DartifactId=myartifact
+mvn archetype:generate\
+         -DarchetypeArtifactId=maven-archetype-quickstart\
+         -DinteractiveMode=false -DgroupId=my.pkg.path\
+         -DartifactId=myartifact
 ```
 4. Command chaining: mvn clean deploy
 ```
