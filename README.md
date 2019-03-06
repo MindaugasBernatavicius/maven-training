@@ -20,12 +20,18 @@
 ```
 mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false -DgroupId=my.package.path -DartifactId=myartifact
 ```
+4. Command chaining: mvn clean deploy
 ```
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project myartifact: Compilation failure: Compilation failure:
 [ERROR] Source option 5 is no longer supported. Use 6 or later.
 [ERROR] Target option 1.5 is no longer supported. Use 1.6 or later.
 ```
-4. Command chaining: mvn clean deploy
+```
+<properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+</properties>
+```
 5. Build same or similar project with your ide.
 6. Override default build directory / compiled file name inside the build directive.
 X. Add junit testing framework.
