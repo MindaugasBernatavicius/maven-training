@@ -1,7 +1,21 @@
 # maven-training
 
-1. Install maven, configure PATH, call mvn help from cmd.
+1. Install maven, configure JAVA_HOME, MAVEN_HOME, PATH, call mvn --help, mvn --version.
 2. Write simple pom.xml, run maven clean.
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+</project>
+```
+```
+    <groupId>cf.mindaugas</groupId>
+    <artifactId>sda-maven-demo</artifactId>
+    <version>1.0-SNAPSHOT</version>
+```
 3. Build a simple project from command line - hello world.
 4. Command chaining: mvn clean deploy
 5. Build same or similar project with your ide.
