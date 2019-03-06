@@ -1,6 +1,6 @@
 # maven-training
 
-1. Install maven, configure JAVA_HOME, MAVEN_HOME, PATH, call mvn --help, mvn --version.
+1. Install maven, configure `JAVA_HOME`, `MAVEN_HOME`, `PATH`, call `mvn --help`, `mvn --version`.
 2. Write simple pom.xml, run maven clean.
 ```
 <?xml version="1.0" encoding="UTF-8"?>
