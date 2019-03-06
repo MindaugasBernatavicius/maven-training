@@ -17,7 +17,9 @@
     <version>1.0-SNAPSHOT</version>
 ```
 3. Build a simple project from command line - hello world, by hand or by using this command:
-```mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false -DgroupId=my.package.path -DartifactId=myartifact```
+```
+mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false -DgroupId=my.package.path -DartifactId=myartifact
+```
 4. Command chaining: mvn clean deploy
 5. Build same or similar project with your ide.
 6. Override default build directory / compiled file name inside the build directive.
