@@ -44,7 +44,7 @@ mvn archetype:generate\
 6. Override default build directory / compiled file name inside the build directive.
 7. Add scope to junit dependency (maven scopes).
 8. Unit testing in maven: cmd and ide.
-9. Import an existing project as a maven project → from my github to students machine.
+9. Import an existing project as a maven project.
 
 ## resources:
 
