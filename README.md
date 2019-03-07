@@ -25,7 +25,7 @@ mvn archetype:generate\
          -DinteractiveMode=false -DgroupId=my.pkg.path\
          -DartifactId=myartifact
 ```
-4. Command chaining: mvn clean deploy
+4. Command chaining - `mvn clean deploy` and `mvn clean test`:
 ```
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project myartifact: Compilation failure: Compilation failure:
 [ERROR] Source option 5 is no longer supported. Use 6 or later.
