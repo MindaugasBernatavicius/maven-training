@@ -42,6 +42,6 @@ X. Add junit testing framework.
 X. Unit testing in maven: cmd and ide.
 8. Import an existing project as a maven project → from my github to students machine.
 
-## Resources:
+## resources:
 
 - Good simple tutorial: http://www.java2s.com/Tutorials/Java/Maven_Tutorial/index.htm
