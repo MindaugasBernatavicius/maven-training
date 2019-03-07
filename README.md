@@ -1,5 +1,7 @@
 # maven-training
 
+## simple walk through:
+
 1. Install maven, configure `JAVA_HOME`, `MAVEN_HOME`, `PATH`, call `mvn --help`, `mvn --version`.
 2. Write simple pom.xml, run maven clean. Be carefull w/ file extensions not showing up in windows.
 ```
