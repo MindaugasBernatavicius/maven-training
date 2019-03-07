@@ -38,6 +38,7 @@ mvn archetype:generate\
 </properties>
 ```
 5. Build same or similar project with your ide.
+![image](https://user-images.githubusercontent.com/7895269/53935028-91bb4580-40ad-11e9-8258-ccccf9f0de35.png)
 6. Override default build directory / compiled file name inside the build directive.
 X. Add junit testing framework.
 7. Add scope to junit dependency (maven scopes).
