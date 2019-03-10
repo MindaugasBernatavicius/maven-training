@@ -38,9 +38,11 @@ mvn archetype:generate\
 </properties>
 ```
 5. Commit the "Hello world" project just generated to github.
-5. Build same (or similar) project with your ide.
+6. Build same (or similar) project with your ide.
 
 ![image](https://user-images.githubusercontent.com/7895269/53935028-91bb4580-40ad-11e9-8258-ccccf9f0de35.png)
+
+7. Using the jar pluging launch your created application.
 
 ```
 <build>
@@ -64,7 +66,7 @@ mvn archetype:generate\
 </build>
 ```
 
-6. Goal chaining in command line and ide.
+7. Goal chaining in command line and ide.
 7. Override default build directory / compiled file name inside the build directive.
 8. Add scope to junit dependency (maven scopes).
 9. Unit testing in maven: cmd and ide.
