@@ -66,11 +66,12 @@ mvn archetype:generate\
 </build>
 ```
 
-7. Goal chaining in command line and ide.
-7. Override default build directory / compiled file name inside the build directive.
-8. Add scope to junit dependency (maven scopes).
-9. Unit testing in maven: cmd and ide.
-A. Import an existing project as a maven project.
+8. Goal chaining in command line and ide.
+9. Override default build directory / compiled file name inside the build directive.
+A. Convert old projects into maven projects.
+B. Add scope to junit dependency (maven scopes).
+C. Unit testing in maven: cmd and ide.
+D. Import an existing project as a maven project.
 
 ## resources:
 
