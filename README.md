@@ -37,7 +37,8 @@ mvn archetype:generate\
     <maven.compiler.target>1.6</maven.compiler.target>
 </properties>
 ```
-5. Build same or similar project with your ide.
+5. Commit the "Hello world" project just generated to github.
+5. Build same (or similar) project with your ide.
 
 ![image](https://user-images.githubusercontent.com/7895269/53935028-91bb4580-40ad-11e9-8258-ccccf9f0de35.png)
 
