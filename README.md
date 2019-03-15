@@ -68,10 +68,10 @@ mvn archetype:generate\
 
 8. Goal chaining in command line and ide.
 9. Override default build directory / compiled file name inside the build directive.
-A. Convert old projects into maven projects.
-B. Add scope to junit dependency (maven scopes).
-C. Unit testing in maven: cmd and ide.
-D. Import an existing project as a maven project.
+10. Convert old projects into maven projects.
+11. Add scope to junit dependency (maven scopes).
+12. Unit testing in maven: cmd and ide.
+13. Import an existing project as a maven project.
 
 ## resources:
 
