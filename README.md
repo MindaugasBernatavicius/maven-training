@@ -72,6 +72,12 @@ mvn archetype:generate\
 11. Add scope to junit dependency (maven scopes).
 12. Unit testing in maven: cmd and ide.
 13. Import an existing project as a maven project.
+14. mvn dependency:tree
+```
+[INFO] cf.mindaugas:simpleUnitTests:jar:1.0-SNAPSHOT
+[INFO] \- junit:junit:jar:4.12:test
+[INFO]    \- org.hamcrest:hamcrest-core:jar:1.3:test
+```
 
 ## resources:
 
