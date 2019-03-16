@@ -71,6 +71,10 @@ mvn archetype:generate\
 10. Convert old projects into maven projects.
 11. Add scope to junit dependency (maven scopes).
 12. Unit testing in maven: cmd and ide.
+```
+mvn test -Dtest=cf.mindaugas.ExampleTest
+mvn test -Dtest=cf.mindaugas.ExampleTest#appendStringTest
+```
 13. Import an existing project as a maven project.
 14. mvn dependency:tree
 ```
