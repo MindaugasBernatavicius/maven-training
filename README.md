@@ -70,6 +70,7 @@ mvn archetype:generate\
 ```
 
 8. Goal chaining in ide.
+
 ![image](https://user-images.githubusercontent.com/7895269/59968469-10e06680-9543-11e9-839d-3e7f4a51a189.png)
 
 9. Override default build directory / compiled file name inside the build directive.
