@@ -89,6 +89,9 @@ mvn test -Dtest=cf.mindaugas.ExampleTest#appendStringTest
 [INFO]    \- org.hamcrest:hamcrest-core:jar:1.3:test
 ```
 
+15. Advanced: testing the main method (not recommended, but sometimes needed): https://stackoverflow.com/questions/36349827/testing-main-method-by-junit
+16. Advanced: redirecting stdout and stderr: https://stackoverflow.com/questions/1119385/junit-test-for-system-out-println
+
 ## resources:
 
 - Good simple tutorial: http://www.java2s.com/Tutorials/Java/Maven_Tutorial/index.htm
