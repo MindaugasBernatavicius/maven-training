@@ -2,10 +2,10 @@
 
 ## simple walk through:
 
-1. Install maven, configure `JAVA_HOME`, `MAVEN_HOME`, `PATH`, call `mvn --help`, `mvn --version`. 
-         For linux users: https://linuxize.com/post/how-to-install-apache-maven-on-ubuntu-18-04/ ;
-         For MAC users: https://github.com/rajivkanaujia/alphaworks/wiki/Installing-Maven
-         In case linux env variables need to be set on linux: https://unix.stackexchange.com/questions/117467/how-to-permanently-set-environmental-variables
+1. Install maven, configure `JAVA_HOME`, `MAVEN_HOME`, `PATH`, call `mvn --help`, `mvn --version`.
+- For linux users: https://linuxize.com/post/how-to-install-apache-maven-on-ubuntu-18-04/ ;
+- For MAC users: https://github.com/rajivkanaujia/alphaworks/wiki/Installing-Maven
+- In case linux env variables need to be set on linux: https://unix.stackexchange.com/questions/117467/how-to-permanently-set-environmental-variables
 2. Write simple pom.xml, run maven clean. Be carefull w/ file extensions not showing up in windows.
 ```
 <?xml version="1.0" encoding="UTF-8"?>
