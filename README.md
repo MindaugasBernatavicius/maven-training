@@ -41,7 +41,7 @@ mvn archetype:generate\
 </properties>
 ```
 5. [Optional] Commit the "Hello world" project just generated to github (configure .gitignore correctly)
-6. Build same (or similar) project with your ide.
+6. Build same (or similar) project with your ide (from the archetype).
 
 ![image](https://user-images.githubusercontent.com/7895269/53935028-91bb4580-40ad-11e9-8258-ccccf9f0de35.png)
 
