@@ -40,7 +40,7 @@ mvn archetype:generate\
     <maven.compiler.target>1.8</maven.compiler.target>
 </properties>
 ```
-5. Commit the "Hello world" project just generated to github.
+5. [Optional] Commit the "Hello world" project just generated to github (configure .gitignore correctly)
 6. Build same (or similar) project with your ide.
 
 ![image](https://user-images.githubusercontent.com/7895269/53935028-91bb4580-40ad-11e9-8258-ccccf9f0de35.png)
@@ -70,6 +70,8 @@ mvn archetype:generate\
 ```
 
 8. Goal chaining in ide.
+![image](https://user-images.githubusercontent.com/7895269/59968469-10e06680-9543-11e9-839d-3e7f4a51a189.png)
+
 9. Override default build directory / compiled file name inside the build directive.
 10. Convert old projects into maven projects.
 11. Add scope to junit dependency (maven scopes).
